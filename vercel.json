@@ -1,0 +1,6 @@
+{
+  "installCommand": "yarn install",
+  "buildCommand": "yarn tsc && yarn vite build",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
